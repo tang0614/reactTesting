@@ -1,9 +1,11 @@
 import './App.css';
+import { FocusInput } from './FocusInput/FocusInput';
 
 function App() {
   return (
     <div className="App">
-    Learn React
+      learn react
+      <FocusInput/>
     </div>
   );
 }
