@@ -7,6 +7,7 @@ export default function App() {
     <div className="App">
       <h1>Play!</h1>
       <Counter />
+      
     </div>
   );
 }
