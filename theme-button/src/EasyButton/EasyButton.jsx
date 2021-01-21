@@ -1,8 +1,8 @@
 import React from 'react'
-export const EasyButton = (props)=>{
+
+export const EasyButton = ({text, ...other})=>{ 
+
     return(
-        <div>
-        <button {...props}>easy</button>
-        </div>
+        <button {...other}>{text}</button>
     )
 }
